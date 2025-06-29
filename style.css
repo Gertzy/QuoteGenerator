@@ -1,15 +1,5 @@
-#mainTitle {
-  font-family: Arial, sans-serif;
-  background-color: white;
-  margin: 0;
-  padding: 0;
-  font-size: 2.5rem;
-  height: 100px;
-  line-height: 100px;
-  text-align: center;
-  color: black;
-}
-
-html {
-  scroll-behavior: smooth;
+#test {
+  margin: auto;
+  font-size: xx-small;
+  padding: 12rem;
 }
