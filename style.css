@@ -1,5 +1,28 @@
-#test {
-  margin: auto;
-  font-size: xx-small;
-  padding: 12rem;
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+#centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#titlebox {
+  margin-top: 1.1rem;
+  width: 16rem;
+}
+#title {
+  text-align: center;
+}
+#buttonbox {
+  margin-top: 4rem;
+}
+
+#welcome {
+  margin-top: 15rem;
+}
+#text {
+  margin-top: 2rem;
+  font-size: larger;
 }

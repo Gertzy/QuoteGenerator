@@ -1,6 +1,15 @@
-fetch("https://pokeapi.co/api/v2/pokemon/pikachu")
-  .then((response) => response.json())
-  .then((data) => console.log(data))
-  .catch((error) => console.log(error));
+const button = document.querySelector("#button");
+const text = document.querySelector("#text");
 
-console.log("hello world");
+button.onclick = getQuote;
+
+function getQuote() {
+  fetch("https://quoteslate.vercel.app/api/quotes/random")
+    .then((response) => response.json())
+    .then((data) => console.log(data))
+    .then((data) => {
+      text.innerText = data.quote;
+      return console.log(data);
+    })
+    .catch((error) => console.log(error));
+}
