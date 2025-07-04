@@ -2,6 +2,7 @@ html,
 body {
   height: 100%;
   margin: 0;
+  background-color: rgb(173, 216, 230);
 }
 #centered {
   display: flex;
@@ -33,4 +34,18 @@ body {
 }
 #authortext {
   margin-top: 10px;
+}
+#button {
+  background-color: rgb(230, 230, 250);
+  width: 6rem;
+  height: 3rem;
+  font-size: medium;
+  border-color: rgb(147, 112, 219);
+  border-width: 0.2rem;
+  border-radius: 1rem;
+}
+#button:hover {
+  background-color: rgb(147, 112, 219);
+  color: white;
+  cursor: pointer;
 }
